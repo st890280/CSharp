@@ -10,13 +10,14 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            /*
+            
             Console.WriteLine("App 2");
              
             int result = MyMath.Add(5, 6);
             Console.WriteLine("5 + 6 =" + result);
             Console.ReadLine();
-            */
+            
+            /*
 #if DEBUG
             Console.WriteLine(1);
 #endif
@@ -25,8 +26,7 @@ namespace ConsoleApp2
 #if RELEASE
             Console.WriteLine(1);
 #endif
+            */
         }
-
-
     }
 }

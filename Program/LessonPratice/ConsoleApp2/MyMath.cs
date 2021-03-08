@@ -10,7 +10,6 @@ namespace ConsoleApp2
     {
         public static int Add(int a, int b)
         {
-            string aaa = "123";
             return a + b;
         }
     }

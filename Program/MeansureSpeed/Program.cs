@@ -12,16 +12,16 @@ namespace MeasureSpeed
         {
             
             System.Diagnostics.Stopwatch sw = new System.Diagnostics.Stopwatch();
-
+            
             Console.WriteLine("程式開始");
             sw.Start();
-            SleepHelper.SleepAWhile(Rnd);
+            SleepHelper.SleepAWhile(3);
             sw.Stop();
 
 
 
             sw.Start();
-            SleepHelper.SleepAWhile(Rnd);
+            SleepHelper.SleepAWhile(6);
             sw.Stop();
 
             Console.WriteLine("程式結束. 用時 " + sw.ElapsedMilliseconds);
